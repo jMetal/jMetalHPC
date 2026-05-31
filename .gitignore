@@ -1,0 +1,38 @@
+# Build output
+target/
+build/
+out/
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse / VS Code
+.classpath
+.project
+.settings/
+.vscode/
+bin/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Mac
+.DS_Store
+
+# Logs / JMH / profiler output
+*.log
+jmh-result.*
+*.jfr
+*.hprof
+flamegraph*.html
+async-profiler-*
+
+# Local Claude settings (per-user overrides)
+.claude/settings.local.json
