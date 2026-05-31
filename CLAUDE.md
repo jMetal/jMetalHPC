@@ -2,6 +2,14 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Authoritative documents
+
+Before contributing, read in this order:
+
+- [`JAVA_HPC_GUIDELINES.md`](./JAVA_HPC_GUIDELINES.md) — Java style and HPC rules (priority hierarchy, data structures, allocation discipline, JIT-friendly code, anti-patterns). **Wins over every other document on conflict.**
+- [`TESTING_GUIDELINES.md`](./TESTING_GUIDELINES.md) — test categories (numerical equivalence, property, determinism, smoke), JUnit 6 + AssertJ patterns, no Mockito.
+- [`GIT_GUIDELINES.md`](./GIT_GUIDELINES.md) — conventional commits, atomicity, `perf:` rules.
+
 ## Project purpose
 
 jMetalHPC is an experimental playground for **high-performance** implementations of multi-objective metaheuristics, starting with **NSGA-II for continuous optimization**. The goal is to iterate on implementations that are as fast as possible (CPU, memory, allocations) while remaining numerically equivalent to jMetal.
