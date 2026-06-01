@@ -1,5 +1,13 @@
 # jMetalHPC
 
+[![build](https://github.com/jMetal/jMetalHPC/actions/workflows/ci.yml/badge.svg)](https://github.com/jMetal/jMetalHPC/actions/workflows/ci.yml)
+[![javadoc](https://github.com/jMetal/jMetalHPC/actions/workflows/javadoc.yml/badge.svg)](https://github.com/jMetal/jMetalHPC/actions/workflows/javadoc.yml)
+[![format](https://github.com/jMetal/jMetalHPC/actions/workflows/format.yml/badge.svg)](https://github.com/jMetal/jMetalHPC/actions/workflows/format.yml)
+[![commitlint](https://github.com/jMetal/jMetalHPC/actions/workflows/commitlint.yml/badge.svg)](https://github.com/jMetal/jMetalHPC/actions/workflows/commitlint.yml)
+[![style: google-java-format](https://img.shields.io/badge/style-google--java--format-blue.svg)](https://github.com/google/google-java-format)
+[![Java 21](https://img.shields.io/badge/Java-21-orange.svg)](https://openjdk.org/projects/jdk/21/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 High-performance implementations of multi-objective metaheuristics in Java.
 
 **Status:** early bootstrap. No algorithm code yet; only project scaffolding, conventions and build configuration. First milestone is a baseline NSGA-II for continuous optimisation, benchmarked against [jMetal](https://github.com/jMetal/jMetal).
