@@ -8,6 +8,10 @@ trim_trailing_whitespace = true
 indent_style = space
 indent_size = 4
 
+# Aligned with google-java-format (GOOGLE style) used by Spotless.
+[*.java]
+indent_size = 2
+
 [*.{yml,yaml,json,md}]
 indent_size = 2
 
