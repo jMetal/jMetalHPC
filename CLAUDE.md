@@ -54,6 +54,15 @@ mvn -Pjmh package
 
 # Run a JMH benchmark by regex
 java -jar target/benchmarks.jar NSGAII -wi 3 -i 5 -f 1
+
+# Check formatting (google-java-format via Spotless)
+mvn spotless:check
+
+# Apply formatting in place
+mvn spotless:apply
+
+# Build Javadoc with strict doclint (fails on warnings)
+mvn javadoc:javadoc
 ```
 
 ## Repository layout
